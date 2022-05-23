@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Elyonel Fruits</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">288568585849782</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">46e5b8b73aed6a4c548709fd47fb9c34</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">MJUtOKNnMNCU80tMt8g5W9DoB</string>
+    <string name="twitter_consumer_secret" translatable="false">NbahwSjBs5ha91en0xqFnl3YPXepYuzRh8IITzBvdoZwIXhqHX</string>
+
+    <string name="value_any_category">All food</string>
+    <string name="value_any_price">Any price</string>
+
+    <string name="currency_symbol">GH₵</string>
+
+    <string name="fruit_name">Fruit Name</string>
+    <string name="label_category">Category</string>
+    <string name="fruit_description">Fruit Description</string>
+    <string name="label_price">Price</string>
+    <string name="label_sort_by">Sort By</string>
+
+    <string name="all_fruits">All Fruits</string>
+    <string name="header_filters">Filter</string>
+    <string name="search">Search</string>
+
+    <string name="sort_by_price">Sort by Price</string>
+
+    <string name="sorted_by_ascending">Sorted by alphabetical order</string>
+    <string name="sorted_by_descending">Sorted by descending order</string>
+
+    <string name="add_random_items">Add Random Items</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_all">Delete All</string>
+    <string name="divider_bullet">•</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
+    <string name="hint_quantity">How many do you want?</string>
+    <string name="submit">Submit</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="added_item_to_cart">Added item to cart</string>
+    <string name="cart">Cart</string>
+    <string name="pay">PAY</string>
+
+    <!-- Types of food I could think of in 5 minutes -->
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+
+        <item>Brunch</item>
+        <item>Burgers</item>
+        <item>Coffee</item>
+        <item>Deli</item>
+        <item>Dim Sum</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Pizza</item>
+        <item>Ramen</item>
+        <item>Sushi</item>
+    </string-array>
+
+
+    <!-- Ways you can sort restaurants -->
+    <string-array name="sort_by">
+        <item>@string/sorted_by_ascending</item>
+        <item>@string/sorted_by_descending</item>
+        <item>@string/sort_by_price</item>
+    </string-array>
+</resources>

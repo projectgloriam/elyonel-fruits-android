@@ -1,0 +1,21 @@
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+
+<form action="https://manage.ipaygh.com/gateway/checkout" method="post">
+    <input type="hidden" name="merchant_key"  value="tk_7d33836a-6394-11ea-a5e5-f23c9170642f">
+    <input type="hidden" name="success_url"  value="">
+    <input type="hidden" name="cancelled_url" value="">
+    <input type="hidden" name="ipn_url"  value="">
+    <input type="hidden" name="invoice_id" value="">
+    <input type="hidden" name="extra_name"  value="customer name">
+    <input type="hidden" name="extra_mobile" value="0240000000">
+    <input type="hidden" name="extra_email"  value="example@ipaygh.com">
+    <input type="hidden" name="total" value="1.00">
+    <input type="hidden" name="description"  value="Sample Order">
+    <button type="submit">Make Payment</button>
+</form>
+
+<script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+</script>
